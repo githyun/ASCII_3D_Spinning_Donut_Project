@@ -40,10 +40,6 @@ C++와 수학적 원리를 활용하여 콘솔 터미널에 3D 회전 도넛을 
 * **오타 및 수학적 디버깅:**
   처음 구현 후 도넛의 형상이 찌그러지고 빛 반사가 비정상적으로 나오는 문제가 있었습니다. 코드를 한 줄씩 꼼꼼히 점검한 결과, Z좌표 계산 식에서 `sin(pi)`를 `sin(theta)`로 잘못 입력한 오타를 발견하여 수정했습니다. 
 
-## 📝 느낀 점
-* 학교 기하 시간에 배운 벡터와 내적, 그리고 3차원 좌표계가 실제 그래픽 프로그래밍에 어떻게 적용되는지 체감할 수 있었습니다.
-* 3D 입체를 2D 평면에 투영하는 방법과 Z-buffer 알고리즘을 직접 코드로 짜보며 프로그래밍에 대한 자신감을 얻었습니다.
-* 작은 수학적 오타 하나가 전체 렌더링 결과물을 망칠 수 있다는 점을 깨달았으며, 끈기 있게 디버깅하는 인내심을 기를 수 있었습니다.
 
 ---
 *참고한 자료: [I Coded a 3D Spinning Donut - Green Code](https://www.youtube.com/watch?v=74FJ8TTMM5E), [How does the Spinning Cube work? - Code Fiction](https://www.youtube.com/watch?v=0E0UBphVRhY), [Donut math: how donut.c works](https://www.a1k0n.net/2011/07/20/donut-math.html), [ASCII-Donut-Animation - sherwinvishesh](https://github.com/sherwinvishesh/ASCII-Donut-Animation/blob/main/src/circle.cpp), [[C/C++ ] ANSI 이스케이프 시퀀스 사용해서 커서 이동 + 터미널 조작하기](https://eteo.tistory.com/746)*
